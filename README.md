@@ -5,7 +5,7 @@
    
 Website: https://scintillating-panda-b65f05.netlify.app/
 
-# **bold** About Me:
+# **About Me:**
 
 ## Hi, my Name is Sharon Aljeazsa L Silalahi. 
 
