@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+
+    background-color: #321E1E;
+    margin: 8px;
+
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.nav-section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#D7C0AE;
+    background-color: #321E1E;
+    border: 3px solid white;
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.nav-section a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#D7C0AE;
+    background-color: #321E1E;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.head-section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #321E1E;
+    overflow: hidden;
+    color: #D7C0AE;
+    text-align: justify;
+    padding:16px 24px;
+}
+
+.greet {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: space-evenly;
+    display: fixed;
+    padding: 16px 24px;
+}
+
+.welcome-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    justify-content: space-evenly;
+    display: fixed;
+    padding: 16px 24px;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D7C0AE;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.mypic {
+    width: 200px;
+    border-radius: 25px;
+    margin-right: 16px;
+    margin-left: 16px;
+    justify-content: space-evenly;
+    display: fixed;
+    padding: 16px 24px;
+    overflow-clip-margin: content-box;
+}
+
+.hello-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    border: none;
+}
