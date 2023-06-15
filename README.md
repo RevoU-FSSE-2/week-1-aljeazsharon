@@ -5,8 +5,10 @@
    
 Website: https://scintillating-panda-b65f05.netlify.app/
 
-# About Me:
+# **bold** About Me:
+
 ## Hi, my Name is Sharon Aljeazsa L Silalahi. 
+
 ### I am one of Revou Student.
 I'm currently taking Software Engineering Certification.
 
